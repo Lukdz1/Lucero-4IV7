@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario 4</title>
+    
+    <link rel="stylesheet" href="../Formularios/CSS/style4.css">
+</head>
+
+<body>
+    <section class="main">
+        <div class="contenido">
+            <p>
+                <h3>
+                    Un alumno desea saber cual será su calificación final en la materia de Algoritmos. Dicha
+                    calificación se compone de los siguientes porcentajes:
+                    55% del promedio de sus tres calificaciones parciales,
+                    30% de la calificación del examen final, y
+                    15% de la calificación de un trabajo final.
+            </h3>
+            </p>
+            <div class="form">
+                <form action="" method="get" onsubmit="" id="form">
+                    <div class="grupo">
+                        <input type="number" placeholder="Calificacion del 1er Parcial:" class="preguntas" id="cal1" name="cal1" >
+                        <span class=barra></span>
+                    </div>
+                    <div class="grupo">
+                        <input type="number" placeholder="Calificacion del 2do Parcial:" id="cal2" name="cal2" class="preguntas">
+                        <span class=barra></span>
+                    </div>
+                    <div class="grupo">
+                        <input type="number" placeholder="Calificacion del 3er Parcial:" id="cal3" name="cal3" class="preguntas">
+                        <span class=barra></span>
+                    </div>
+                    <div class="grupo">
+                        <input type="number" placeholder="Calificacion del Examen Final:" id="examen" name="examen" class="preguntas">
+                        <span class=barra></span>
+                    </div>
+                    <div class="grupo">
+                        <input type="number" placeholder="Calificacion del Trabajo Final:" id="trabajo" name="trabajo" class="preguntas">
+                        <span class=barra></span>
+                    </div>
+                    <button type="submit">Calcular</button>
+                </form>
+                <h4 id="resultado"></h4>
+                <br>
+                <a href="../Formularios/index.html" target="_blank" class="btn-1">
+                    <center>Regresar</center>
+                </a>
+            </div>
+        </div>
+    </section>
+    <script src="../Formularios/JS/for4.js"></script>
+</body>
+
+</html>
